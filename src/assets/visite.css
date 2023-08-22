@@ -1,0 +1,40 @@
+
+.hours-contact-section {
+    margin-top: 80px;
+    display: flex;
+    height: 400px;
+    margin-bottom: 10px;
+    font-family: var(--secondary-font);
+}
+
+.hours {
+    flex: 1;
+    padding: 40px;
+    color: #fff;
+    background-image: url('../assets/fd.jpg'); 
+    background-size: cover;
+    background-position: center;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.contact {
+    flex: 1;
+    padding: 40px;
+    color: #fff;
+    background-image: url('../assets/dk.jpg'); 
+    background-size: cover;
+    background-position: center;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.hours:hover,
+.contact:hover {
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}

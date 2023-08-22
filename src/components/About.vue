@@ -1,10 +1,14 @@
 <template>
-  <section class="about" id="about">
-    <div class="container">
-      <h2>À Propos de Nous</h2>
-      <p>Nous sommes un salon de coiffure haut de gamme...</p>
-    </div>
-  </section>
+  <section class="about-section" id="about">
+        <div class="about-left">
+            <h2 class="apropos">A PROPOS DE NOUS</h2>
+            <img src="../assets/momo.jpg" width="50" height="50">
+        </div>
+        <div class="about-right">
+            <p>Nous sommes un salon spécialisé dans la coiffure Hommes & Dames</p>
+            <p>Nos coiffeurs expérimentés sont là pour vous offrir les coupes souhaitées</p>
+        </div>
+    </section>
 </template>
 <script>
 export default{
@@ -12,24 +16,6 @@ export default{
 }
 </script>
 
-<style scoped>
-.about {
-  background-color: #f4f4f4;
-  padding: 50px 0;
-  text-align: center;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 1.1rem;
-}
+<style>
+@import '../style.css';
 </style>

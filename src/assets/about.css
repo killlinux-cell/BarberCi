@@ -1,0 +1,33 @@
+
+.about-section {
+    display: flex;
+    padding: 20px;
+    font-family: var(--secondary-font);
+    justify-content: center;
+    align-items: center;
+     flex-direction: row;
+}
+
+.about-left {
+    flex: 1;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.about-right {
+    flex: 2;
+    padding-left: 20px;
+    
+    border-left: 1px solid black;
+}
+
+.apropos {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}

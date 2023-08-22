@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+@import '../src/assets/gallerie.css';
+@import '../src/assets/about.css';
+@import '../src/assets/hero.css';
+@import '../src/assets/visite.css';
+@import '../src/assets/footer.css';
+
+
+:root{
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Roboto Mono', monospace;
+}
 
 /* Common Styles */
 * {
@@ -8,6 +21,6 @@
   outline: none;
   text-decoration: none;
   list-style-type: none;
-  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 }
 /* End of Common Styles */
