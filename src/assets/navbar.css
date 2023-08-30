@@ -61,14 +61,49 @@
 
  
 @media screen and (max-width: 925px) {
-  .navbar{
+/*   .navbar{
     display: none;
+    width: auto;
   }
   .hamburger {
     display: block;
   }
 
   .logo{
+    display: block;
+  } */
+
+ .container {
+    flex-direction: column; /* Passer à une disposition en colonne */
+    text-align: center; /* Centrer le contenu */
+  }
+
+  .logo {
+    margin: 10px 0; /* Ajuster la marge pour centrer le logo */
+  }
+
+  .hamburger {
+    display: inline-block; /* Afficher le bouton hamburger en ligne */
+    margin-left: 20px; /* Ajouter une marge à gauche pour l'espacement */
+  }
+
+  .nav-links {
+    display: none; /* Masquer les liens de navigation par défaut */
+  }
+  .open {
+    display: block; /* Afficher le menu ouvert */
+    position: fixed; /* Position fixée pour occuper tout l'écran */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    z-index: 100;
+    text-align: center; /* Centrer le contenu du menu ouvert */
+  }
+
+  /* Afficher le menu ouvert au clic sur le bouton hamburger */
+  .open.active {
     display: block;
   }
 }
