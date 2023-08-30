@@ -38,3 +38,15 @@ h2 {
     font-size: 2rem;
     margin-bottom: 20px;
 }
+
+
+@media screen and (max-width: 925px) {
+    .hours-contact-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact {
+        order: -1;
+    }
+}

@@ -28,18 +28,7 @@
         <div class="image-item">
             <img src="../assets/img-8.jpg" alt="Image 4">
         </div>
- <!--        <div class="image-item">
-            <img src="../assets/img-9.jpg" alt="Image 4">
-        </div>
-        <div class="image-item">
-            <img src="../assets/img-10.jpg" alt="Image 4">
-        </div>
-        <div class="image-item">
-            <img src="../assets/img-12.jpg" alt="Image 4">
-        </div>
-        <div class="image-item">
-            <img src="../assets/img-11.jpg" alt="Image 4">
-        </div> -->
+
     </section>
 </template>
 
